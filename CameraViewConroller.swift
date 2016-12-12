@@ -9,7 +9,10 @@
 import UIKit
 import AVFoundation
 
-class CameraViewController: UIViewController{
+class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate{
+    @IBAction func backButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
     // プレビュー用のビューとOutlet接続しておく
     @IBOutlet weak var previewView: UIView!
     // インスタンスの作成

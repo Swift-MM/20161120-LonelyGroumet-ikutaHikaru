@@ -12,7 +12,6 @@
         <!--Camera View Controller-->
         <scene sceneID="o3I-hs-egG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dzi-OB-yTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="h9g-UH-NUy" customClass="CameraViewController" customModule="LonlyGroumet" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fwn-O7-a2s"/>
@@ -25,6 +24,17 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iBu-Oo-4nk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzK-0p-2lc">
+                                        <rect key="frame" x="49" y="60" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.96084554365032648" green="1" blue="0.94742496195717729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="h9g-UH-NUy" eventType="touchUpInside" id="uiU-hl-nwo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whG-PI-XfK">
@@ -42,6 +52,7 @@
                         <outlet property="previewView" destination="iBu-Oo-4nk" id="30S-P9-AjQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzi-OB-yTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="349.60000000000002" y="131.78410794602701"/>
         </scene>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		337D45FE1DE125890099C3CB /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D45FD1DE125890099C3CB /* Pin.swift */; };
 		339E1CDD1DE1592E00F25BD2 /* CameraViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E1CDC1DE1592E00F25BD2 /* CameraViewConroller.swift */; };
+		33B223991DE3034800C2159A /* ExtensionViewControllerのコピー.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B223981DE3034800C2159A /* ExtensionViewControllerのコピー.swift */; };
 		FFCB8EC51D9B473200B74410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB8EC41D9B473200B74410 /* AppDelegate.swift */; };
 		FFCB8EC71D9B473200B74410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB8EC61D9B473200B74410 /* ViewController.swift */; };
 		FFCB8ECA1D9B473200B74410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCB8EC81D9B473200B74410 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		337D45FD1DE125890099C3CB /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = ../Pin.swift; sourceTree = "<group>"; };
 		339E1CDC1DE1592E00F25BD2 /* CameraViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewConroller.swift; path = ../CameraViewConroller.swift; sourceTree = "<group>"; };
+		33B223981DE3034800C2159A /* ExtensionViewControllerのコピー.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionViewControllerのコピー.swift"; sourceTree = "<group>"; };
 		FFCB8EC11D9B473200B74410 /* LonlyGroumet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LonlyGroumet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCB8EC41D9B473200B74410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFCB8EC61D9B473200B74410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				FFCB8EC41D9B473200B74410 /* AppDelegate.swift */,
 				FFCB8EC61D9B473200B74410 /* ViewController.swift */,
 				337D45FD1DE125890099C3CB /* Pin.swift */,
+				33B223981DE3034800C2159A /* ExtensionViewControllerのコピー.swift */,
 				339E1CDC1DE1592E00F25BD2 /* CameraViewConroller.swift */,
 				FFCB8EC81D9B473200B74410 /* Main.storyboard */,
 				FFCB8ECB1D9B473200B74410 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B223991DE3034800C2159A /* ExtensionViewControllerのコピー.swift in Sources */,
 				339E1CDD1DE1592E00F25BD2 /* CameraViewConroller.swift in Sources */,
 				337D45FE1DE125890099C3CB /* Pin.swift in Sources */,
 				FFCB8EC71D9B473200B74410 /* ViewController.swift in Sources */,
@@ -295,6 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oshige.map-tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oshige.map-tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
